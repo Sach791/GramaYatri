@@ -1,108 +1,73 @@
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
+REPORT
 
-    <title>Grama-Yatri : Smart Village Bus Tracking System</title>
+Title: Automation of Rural Bus Tracking System – Grama-Yatri
 
-    <overview>
-        Grama-Yatri is a smart Android application developed to improve rural transportation
-        by providing real-time village bus tracking and estimated arrival times (ETA).
-        The application helps students, workers, and passengers know the current location
-        of buses and reduces waiting time at bus stops.
-    </overview>
+Introduction:
+Transportation in rural areas is mostly managed manually, where passengers wait at bus stops without accurate information about bus arrival times. This creates uncertainty and wastes valuable time for students, workers, and daily travelers.
 
-    <features>
-        <feature>Real-time Bus Tracking</feature>
-        <feature>Live ETA Updates</feature>
-        <feature>Multiple Bus Routes</feature>
-        <feature>Firebase Realtime Database Integration</feature>
-        <feature>Modern Android UI</feature>
-        <feature>Village-to-City Route Tracking</feature>
-    </features>
+Existing Manual System:
+In the current manual system, passengers depend on fixed schedules or verbal communication to know about bus timings. There is no real-time tracking system available for village buses. If a passenger misses the bus by a few minutes, they may need to wait for several hours for the next one.
 
-    <screens>
-        <screen>Home Screen</screen>
-        <screen>Bus List Screen</screen>
-        <screen>Live Tracking Screen</screen>
-        <screen>About Screen</screen>
-    </screens>
+Limitations of the Manual System:
+1. Unpredictable bus arrival times.
+2. Long waiting periods at bus stops.
+3. Lack of communication regarding delays or cancellations.
+4. Difficulty for students and workers to reach destinations on time.
+5. No centralized information system for rural transportation.
 
-    <technologies>
-        <technology>Android Studio</technology>
-        <technology>Kotlin</technology>
-        <technology>XML</technology>
-        <technology>Firebase Realtime Database</technology>
-        <technology>GitHub</technology>
-    </technologies>
+Proposed Automated Solution:
+To solve these problems, the Grama-Yatri mobile application was developed. The application uses Firebase Realtime Database and Android technology to provide live bus tracking and estimated arrival times (ETA).
 
-    <problem_statement>
-        Village bus timings are often unpredictable, causing students and workers
-        to miss buses and wait for several hours. Rural areas usually do not have
-        proper live transportation systems.
-    </problem_statement>
+Features of Grama-Yatri:
+• Real-time bus tracking.
+• Multiple bus route support.
+• Estimated arrival time calculation.
+• User-friendly Android interface.
+• Live location updates through community participation.
+• Efficient and low-data rural transport solution.
 
-    <solution>
-        Grama-Yatri provides real-time bus tracking, ETA updates,
-        route information, and community-powered live bus updates.
-    </solution>
+Technologies Used:
+• Android Studio
+• Kotlin
+• Firebase Realtime Database
+• XML
+• GitHub
 
-    <routes>
-        <bus name="City Express">
-            <stop>Banashankari</stop>
-            <stop>KR Market</stop>
-            <stop>Chickpet</stop>
-            <stop>Majestic Bus Stand</stop>
-        </bus>
+Conclusion:
+The Grama-Yatri system improves rural transportation by replacing the traditional manual process with a smart automated solution. It helps passengers save time, reduces uncertainty, and provides better connectivity for village communities.REPORT
 
-        <bus name="Village Link">
-            <stop>Rampur</stop>
-            <stop>Lakshmipur</stop>
-            <stop>Shivnagar</stop>
-            <stop>Hanuman Junction</stop>
-        </bus>
+Title: Automation of Rural Bus Tracking System – Grama-Yatri
 
-        <bus name="Metro Connect">
-            <stop>BIT College</stop>
-            <stop>Market Road</stop>
-            <stop>Central Bus Stop</stop>
-            <stop>City Center</stop>
-        </bus>
-    </routes>
+Introduction:
+Transportation in rural areas is mostly managed manually, where passengers wait at bus stops without accurate information about bus arrival times. This creates uncertainty and wastes valuable time for students, workers, and daily travelers.
 
-    <firebase>
-        <service>Realtime Database</service>
-        <service>Firebase Analytics</service>
-        <service>Google Services</service>
-    </firebase>
+Existing Manual System:
+In the current manual system, passengers depend on fixed schedules or verbal communication to know about bus timings. There is no real-time tracking system available for village buses. If a passenger misses the bus by a few minutes, they may need to wait for several hours for the next one.
 
-    <installation>
-        <step>Clone the repository from GitHub</step>
-        <step>Open the project in Android Studio</step>
-        <step>Add google-services.json inside the app folder</step>
-        <step>Sync Gradle files</step>
-        <step>Run the application on emulator or mobile device</step>
-    </installation>
+Limitations of the Manual System:
+1. Unpredictable bus arrival times.
+2. Long waiting periods at bus stops.
+3. Lack of communication regarding delays or cancellations.
+4. Difficulty for students and workers to reach destinations on time.
+5. No centralized information system for rural transportation.
 
-    <future_enhancements>
-        <enhancement>Google Maps Integration</enhancement>
-        <enhancement>Live GPS Tracking</enhancement>
-        <enhancement>Push Notifications</enhancement>
-        <enhancement>Online Ticket Booking</enhancement>
-    </future_enhancements>
+Proposed Automated Solution:
+To solve these problems, the Grama-Yatri mobile application was developed. The application uses Firebase Realtime Database and Android technology to provide live bus tracking and estimated arrival times (ETA).
 
-    <developer>
-        <name>Sachin Awbay</name>
-        <github>https://github.com/Sach791</github>
-    </developer>
+Features of Grama-Yatri:
+• Real-time bus tracking.
+• Multiple bus route support.
+• Estimated arrival time calculation.
+• User-friendly Android interface.
+• Live location updates through community participation.
+• Efficient and low-data rural transport solution.
 
-    <license>
-        Educational and Learning Purpose Only
-    </license>
+Technologies Used:
+• Android Studio
+• Kotlin
+• Firebase Realtime Database
+• XML
+• GitHub
 
-    <conclusion>
-        Grama-Yatri transforms traditional manual village transportation tracking
-        into a modern smart digital solution using Android and Firebase technologies.
-    </conclusion>
-
-</project>
-```
+Conclusion:
+The Grama-Yatri system improves rural transportation by replacing the traditional manual process with a smart automated solution. It helps passengers save time, reduces uncertainty, and provides better connectivity for village communities.
